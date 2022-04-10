@@ -6,4 +6,8 @@
  	'git commit -m <"MESSAGE"> --- writes <"MESSAGE"> as a commit
  'git log' --- shows the history of the commits
 	'git log --oneline' --- shows the condensed view of the history
+ 'git diff' --- compare current unc ommited state with last known git state
+	'git diff --staged' --- between thge staging area and the last known state
+ 'git diff HEAD~<NUMBER>' --- HEAD to commit <NUMBER> relative ago
+ 'git diff <HASH>' --- HEAD to the commit in <HASH>
  
