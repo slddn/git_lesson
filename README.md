@@ -10,4 +10,9 @@
 	'git diff --staged' --- between thge staging area and the last known state
  'git diff HEAD~<NUMBER>' --- HEAD to commit <NUMBER> relative ago
  'git diff <HASH>' --- HEAD to the commit in <HASH>
- 
+ 'git restore --source <HASH OR HEAD~>' --- restore file to <HASH OR HEAD~>
+	'git checkout <HASH OR HEAD~> <FILE>' --- restore file to <HASH OR HEAD~>
+ 		'git checkout <HASH OR HEAD~>' --- no file; detached state
+		'git checkour main' --- back to main
+ 		'git switch main' --- back to main
+  
