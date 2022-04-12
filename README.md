@@ -1,3 +1,4 @@
+#
 # Git notes from  LiveLesson
 
  'git init' :--- initialize current folder as a git repository
@@ -17,7 +18,6 @@
  		'git checkout <HASH OR HEAD~>' :--- no file; detached state
 		'git checkour main' :--- back to main
  		'git switch main' :--- back to main
- 
 # Remotes
 	
  'git remote add <NAME> <URL>' :--- adds the URL as a remote with the name <NAME>
