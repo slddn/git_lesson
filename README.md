@@ -34,3 +34,6 @@
  'git switch -c <NAME>' :--- create and move to the branch <NAME>
 	'git checkout -b <NAME>' :--- old version
  'git merge <BRANCH>' :--- merge <BRANCH> into the current branch 
+ 'git rebase' :--- cammand to change the history of a commit
+	'git rebase <BRANCH>' :--- changes from <BRANCH> into current 
+branch; the branch being rebased	
