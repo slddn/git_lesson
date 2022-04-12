@@ -17,7 +17,9 @@
  		'git checkout <HASH OR HEAD~>' :--- no file; detached state
 		'git checkour main' :--- back to main
  		'git switch main' :--- back to main
-  
+ 
+# Remotes
+	
  'git remote add <NAME> <URL>' :--- adds the URL as a remote with the name <NAME>
  	<NAME>, by convention, is called 'origin'
  'git remote rm <NAME>' :--- removes the remote called <NAME>
