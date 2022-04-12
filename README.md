@@ -27,3 +27,10 @@
  'git push <WHERE> <WHAT>' :--- pushes the <WHAT> branch to <WHERE>
 	git push origin main
 
+## branches
+ 'git branch <NAME>' :--- create branch <NAME> at HEAD
+ 'git switch <NAME>' :--- move to the branch <NAME>
+	'git checkout <NAME>' :--- old version
+ 'git switch -c <NAME>' :--- create and move to the branch <NAME>
+	'git checkout -b <NAME>' :--- old version
+ 
