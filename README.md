@@ -1,5 +1,6 @@
 #
-# Git notes for local work from  LiveLesson
+# Git Notes: form LiveLessons
+## For Local Work
  'git init' :--- initialize current folder as a git repository
  'git clone <URL>' :--- brings the git repo from <URL> to current folder
  'git status' :--- shows the status of the repository
@@ -18,7 +19,7 @@
 		'git checkour main' :--- back to main
  		'git switch main' :--- back to main
 
-# Working with remotes
+## Working With Remotes
  'git remote add <NAME> <URL>' :--- adds the URL as a remote with the name <NAME>
  	<NAME>, by convention, is called 'origin'
  'git remote rm <NAME>' :--- removes the remote called <NAME>
