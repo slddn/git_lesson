@@ -33,4 +33,4 @@
 	'git checkout <NAME>' :--- old version
  'git switch -c <NAME>' :--- create and move to the branch <NAME>
 	'git checkout -b <NAME>' :--- old version
- 
+ 'git merge <BRANCH>' :--- merge <BRANCH> into the current branch 
