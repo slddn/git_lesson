@@ -35,5 +35,6 @@
 	'git checkout -b <NAME>' :--- old version
  'git merge <BRANCH>' :--- merge <BRANCH> into the current branch 
  'git rebase' :--- cammand to change the history of a commit
-	'git rebase <BRANCH>' :--- changes from <BRANCH> into current 
-branch; the branch being rebased	
+	Commits from 'git merge' can be automatically combined if no conflicts
+ 'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
+
