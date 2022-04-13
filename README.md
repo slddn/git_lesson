@@ -39,4 +39,5 @@
  'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
 
  branch commit 1
+ branch commit 2
 
