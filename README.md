@@ -38,3 +38,5 @@
 	Commits from 'git merge' can be automatically combined if no conflicts
  'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
 
+ branch commit 1
+
