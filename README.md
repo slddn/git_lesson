@@ -27,7 +27,7 @@
  'git push <WHERE> <WHAT>' :--- pushes the <WHAT> branch to <WHERE>
 	git push origin main
 
-## BRANCHES - main commit 3
+## Branches
  'git branch <NAME>' :--- create branch <NAME> at HEAD
  'git switch <NAME>' :--- move to the branch <NAME>
 	'git checkout <NAME>' :--- old version
@@ -38,6 +38,3 @@
 	Commits from 'git merge' can be automatically combined if no conflicts
  'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
 
- main commit 1
- main commit 2
- branch commit 1
