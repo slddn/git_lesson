@@ -37,4 +37,8 @@
  'git rebase' :--- cammand to change the history of a commit
 	Commits from 'git merge' can be automatically combined if no conflicts
  'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
+	'git status' :--- is your friend during rebase
+ 	'git add <FILE>' :--- to mark conflict resolution
+	'git rebase --continue' :--- move to next commit in rebase process
+	'git rebase --abort' :--- undo the whole git rebase step
 
