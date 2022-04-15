@@ -27,7 +27,7 @@
  'git push <WHERE> <WHAT>' :--- pushes the <WHAT> branch to <WHERE>
 	git push origin main
 
-## BRANCHES - branch commit 3
+## BRANCHES - main commit 3
  'git branch <NAME>' :--- create branch <NAME> at HEAD
  'git switch <NAME>' :--- move to the branch <NAME>
 	'git checkout <NAME>' :--- old version
@@ -45,6 +45,7 @@
 	multiple commit changes can be made here; ie, 'squash'/'s'
 	'git rebase -i <HASH>^' :--- use ^ to include the comity in intractive rebase
  
-branch commit 1
-branch commit 2 
+main commit 1
+main commit 2
+
 
