@@ -46,5 +46,5 @@
 	'git rebase -i <HASH>^' :--- use ^ to include the comity in intractive rebase
  
 branch commit 1
-
+branch commit 2 
 
