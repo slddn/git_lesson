@@ -43,8 +43,12 @@
 	'git rebase --abort' :--- undo the whole git rebase step
  'git rebase -i <COMMIT> HEAD~ or <HASH> of commit to go into iteractive rebase
 	multiple commit changes can be made here; ie, 'squash'/'s'
-	'git rebase -i <HASH>^' :--- use ^ to include the commit in 
-intractive rebase
- 
+	'git rebase -i <HASH>^' :--- use ^ to include the commit in intractive rebase
+ 'git stash' or 'git commit' :--- to save one's work before moving between branches
+	'stash' is temporary
+ 	'git stash list' :--- show the stashed c ommits
+	'git stash apply' :--- apply the last stashed commit
+	'git stash clear' :--- clean up the stashes
+
 
 
