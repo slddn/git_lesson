@@ -46,4 +46,9 @@
 	'git rebase -i <HASH>^' :--- use ^ to include the comity in intractive rebase
  'git stash' or 'git commit' :--- to save one's work before moving between 
 branches
+	'stash' is temporary
+ 	'git stash list' :--- show the stashed c ommits
+	'git stash apply' :--- apply the last stashed commit
+	'git stash clear' :--- clean up the stashes
+
 
