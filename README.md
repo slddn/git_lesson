@@ -44,5 +44,5 @@
  'git rebase -i <COMMIT> HEAD~ or <HASH> of commit to go into iteractive rebase
 	multiple commit changes can be made here; ie, 'squash'/'s'
 	'git rebase -i <HASH>^' :--- use ^ to include the comity in intractive rebase
-
+ 'git stash' or 'git commit' :--- to save work before moving between branches
 
