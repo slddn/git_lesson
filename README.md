@@ -50,8 +50,14 @@ rebased
    - 'git stash list' :--- show the stashed c ommits
    - 'git stash apply' :--- apply the last stashed commit
    - 'git stash clear' :--- clean up the stashes
+
 - A 'merge' on the remote is called a "pull request" or a "merge request"
    - 'git push <WHERE> <WHAT>'
    - To update a PR, we make the branch locally and re-'push'
 
 - A merge conflict can happen after a PR is issued.
+- 'git fetch' :--- update the git log without manking any changes to 
+the  files
+   - 'git fetch --prune' :--- update the log and also remove deleted 
+remote branches
+ 
