@@ -24,8 +24,8 @@
 -'git remote add <NAME> <URL>' :--- adds the URL as a remote with the name <NAME>
  	<NAME>, by convention, is called 'origin'
 - 'git remote rm <NAME>' :--- removes the remote called <NAME>
-- 'git remote -v' :--- shows the remotes for the repo
-- 'git push <WHERE> <WHAT>' :--- pushes the <WHAT> branch to <WHERE>
+- 'git remote -v' :--- view a list of the remotes for the repo
+- 'git push <WHERE> <WHAT>' :--- pushes, to <WHERE>, the <WHAT> branch
    - git push origin main
 
 ## Branches
