@@ -1,4 +1,4 @@
-#
+
 # Git Notes: form LiveLessons
 
 ## For Local Work
