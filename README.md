@@ -36,23 +36,24 @@
 - 'git merge <BRANCH>' :--- merge <BRANCH> into the current branch 
 - 'git rebase' :--- cammand to change the history of a commit
 	Commits from 'git merge' can be automatically combined if no conflicts
-- 'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being 
-rebased	
+- 'git rebase <BRANCH>' :--- changes from <BRANCH> into current branch; the branch being rebased	
    - 'git status' :--- is your friend during rebase; ie, how to proceed
    - 'git add <FILE>' :--- to mark conflict resolution
    - 'git rebase --continue' :--- move to the next commit in rebase process
    - 'git rebase --abort' :--- undo the whole git rebase step
 - 'git rebase -i <COMMIT> HEAD~ or <HASH> of commit to go into iteractive rebase
-	multiple commit changes can be made here; ie, 'squash'/'s'
+	Multiple commit changes can be made here; ie, 'squash'/'s'
    - 'git rebase -i <HASH>^' :--- use ^ to include the commit in intractive rebase
 - 'git stash' or 'git commit' :--- to save one's work before moving between branches
    - 'stash' is temporary
    - 'git stash list' :--- show the stashed c ommits
    - 'git stash apply' :--- apply the last stashed commit
    - 'git stash clear' :--- clean up the stashes
-- A 'merge' on the remote is called a "pull request" or a "merge request"
+
+- A merge on the remote is called a "pull request" or a "merge request"
    - 'git push <WHERE> <WHAT>'
    - To update a PR, we make the branch locally and re-'push'
+
 - A merge conflict can happen after a PR is issued.
 - 'git fetch' :--- updates the git log without manking any changes to the files
    - 'git fetch --prune' :--- updates the log and also removes deleted remote branches
