@@ -17,7 +17,7 @@
 - 'git restore --source <HASH OR HEAD~>' :--- restore file to <HASH OR HEAD~>
    - 'git checkout <HASH OR HEAD~> <FILE>' :--- restore file to <HASH OR HEAD~>
       - 'git checkout <HASH OR HEAD~>' :--- no file; detached state
-      -' git checkour main' :--- back to main
+      - 'git checkout main' :--- back to main
       - 'git switch main' :--- back to main
 
 ## Working With Remotes
