@@ -56,4 +56,4 @@ rebased
 - A merge conflict can happen after a PR is issued.
 - 'git fetch' :--- updates the git log without manking any changes to the files
    - 'git fetch --prune' :--- updates the log and also removes deleted remote branches
- 
+
