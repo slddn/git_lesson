@@ -55,7 +55,10 @@
    - 'git push <WHERE> <WHAT>'
    - To update a PR, we make the branch locally and re-'push'
 
-- A new *** merge conflict can happen after a PR is issued.
+- A merge conflict can happen after a PR is issued.
 - 'git fetch' :--- updates the git log without making any changes to the files
    - 'git fetch --prune' :--- updates the log and also removes deleted remote branches
+
+- 'git push -f [where] [what]' :--- force push the branch [what] to the remote [whare]
+   - `git push --force-with-lease [where] [what]` :--- more mindful of collaborators
 
