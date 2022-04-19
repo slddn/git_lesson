@@ -3,9 +3,9 @@
 
 ## For Local Work
 - `git init` :--- initialize current folder as a git repository
-- `git clone [URL]` :--- brings the git repo from <URL> to current folder
+- `git clone <URL>` :--- brings the git repo from <URL> to current folder
 - `git status` :--- shows the status of the repository
-- `git add [FILE]` :--- adds <FILE> to the staging area
+- `git add <FILE>` :--- adds <FILE> to the staging area
 - `git commit` :--- opens the text editor for commit message, and commit
    - `git commit -m <"MESSAGE">` :--- writes <"MESSAGE"> as a commit
 - `git log` :--- shows the history of the commits
@@ -59,6 +59,6 @@
 - `git fetch` :--- updates the git log without making any changes to the files
    - `git fetch --prune` :--- updates the log and also removes deleted remote branches
 
-- `git push -f [where] [what]` :--- force push the branch [what] to the remote [whare]
-   - `git push --force-with-lease [where] [what]` :--- more mindful of collaborators
+- `git push -f <where> <what>` :--- force push the branch [what] to the remote [whare]
+   - `git push --force-with-lease <where> <what>` :--- more mindful of collaborators
 
