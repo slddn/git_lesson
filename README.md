@@ -22,7 +22,7 @@
 
 ## Working With Remotes
 -`git remote add <NAME> <URL>` :--- adds the URL as a remote with the name <NAME>
- 	<NAME>, by convention, is called `origin`
+ 	<NAME>, by convention, is called 'origin'
 - `git remote rm <NAME>` :--- removes the remote called <NAME>
 - `git remote -v` :--- view a list of the remotes for the repo
 - `git push <WHERE> <WHAT>` :--- pushes, to <WHERE>, the <WHAT> branch
@@ -43,7 +43,7 @@
    - `git rebase --continue` :--- move to the next commit in rebase process
    - `git rebase --abort` :--- undo the whole git rebase step
 - `git rebase -i <COMMIT> HEAD~` :--- or <HASH> of commit to go into interactive rebase
-	Multiple commit changes can be made here; ie, `squash`/`s`
+	Multiple commit changes can be made here; ie, 'squash'/'s'
    - `git rebase -i <HASH>^` :--- use ^ to include the commit in interactive rebase
 - `git stash` or `git commit` :--- to save one`s work before moving between branches
    - `stash` :--- is temporary
@@ -53,7 +53,7 @@
 
 - A merge on the remote is called a "pull request" or a "merge request"
    - `git push <WHERE> <WHAT>`
-   - To update a PR, we make the branch locally and re-`push`
+   - To update a PR, we make the branch locally and re-'push'
 
 - A merge conflict can happen after a PR is issued.
 - `git fetch` :--- updates the git log without making any changes to the files
