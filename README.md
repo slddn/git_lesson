@@ -63,5 +63,6 @@
    - `git push --force-with-lease <where> <what>` :--- more mindful of collaborators
 
 ## Colaborators
-- Add collaborators in the repository settings.
+- Add collaborators from within the repository settings.
 - Collagorators will thern `git clone <URL>` to get the repo onto their computers.
+- If he is not the first to sync, he will have to sync the history.
