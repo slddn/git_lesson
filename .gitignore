@@ -1,3 +1,4 @@
 ignore_fig.png
 output/*.png
 README_hold.md
+.DS_Store
