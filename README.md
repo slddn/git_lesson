@@ -62,9 +62,9 @@
 - `git push -f <where> <what>` :--- force push the branch <what> to the remote <whare>
    - `git push --force-with-lease <where> <what>` :--- more mindful of collaborators
 
-## Colaborators
+## Collaborators
 - Add collaborators from within the repository settings.
-- Collagorators will thern `git clone <URL>` to get the repo onto their computers.
+- Collaborators will then `git clone <URL>` to get the repo onto their computers.
 - If he is not the first to sync, he will have to sync the history.
 - Each person's branch changes are independent of all others.
 
