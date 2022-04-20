@@ -64,5 +64,5 @@
 
 ## Colaborators
 - Add collaborators from within the repository settings.
-- Collagorators will thern `git clone <URL>` to get the repo onto their computers.
-- If he is not the first to sync, he will have to sync the history.
+- Collaborators will then use `git clone <URL>` to copy the repo onto their computers.
+- If a collaborator is not the first to sync, he will have to sync the history.
