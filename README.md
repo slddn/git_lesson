@@ -68,3 +68,5 @@
 - If a collaborator is not the first to sync, he will have to sync the history.
 - Each person's branch changes are independent of all others.
 - From the MacBook Pro
+- A second time using the PAT
+
