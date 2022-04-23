@@ -63,9 +63,14 @@
    - `git push --force-with-lease <where> <what>` :--- more mindful of collaborators
 
 ## Collaborators
-- Add collaborators from within the repository Settings.
+- Add collaborators by using the repository's Settings tab.
 - Collaborators will then use `git clone <URL>` to copy the repo onto their computers.
 - If a collaborator is not the first to sync, he will have to sync the history.
 - Each person's branch changes are independent of all others.
 - From the MacBook Pro
 - A second time using the PAT
+
+## Git Workflows
+- Adding a Collaborator --- both acces the origin main
+- Branching workflow --- each works independently on a branch
+- GitFlow workflow --- branches are merged to a dev branch, and main is for releases
