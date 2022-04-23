@@ -74,3 +74,8 @@
 - Adding a Collaborator --- both acces the origin main
 - Branching workflow --- each works independently on a branch
 - GitFlow workflow --- branches are merged to a dev branch, and main is for releases
+- Forking --- is commonly used in Open Source projects
+   - Fork --- to copy the original repo into one's own account
+   - `origin` --- is one's own remote copy of the repo
+   - `upstream` --- is the original remote repo
+   - follows branching workflows
